@@ -61,7 +61,7 @@ python merge.py --model_name Qwen/Qwen3-8B --dataset_name math500 --method copt
 * Please check [run.sh](./run.sh) for more examples
 
 
-## 📈 Agentic Reasoning
+## 🔧 Agentic Reasoning
 
 ```bash
 
@@ -74,10 +74,10 @@ torchrun --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_port $((RANDOM + 2
 python merge.py --model_name Qwen/Qwen3.5-35B-A3B --dataset_name zebra_arena --method copt --zebra_arena_space Small
 ```
 
-* Same reasoning effort control as general reasoning
 * Download the dataset [here](https://drive.google.com/file/d/1GuLsT31rQgicmQJCS5QcnMUhiOkCU5xx/view?usp=sharing) or view the raw dataset [here](https://huggingface.co/datasets/WanjiaZhao/ZebraArena)
 * Specify the dataset path with ``--zebra_arena_data_dir``
 * We recommend using Qwen3.5 instead of Qwen3 for agentic tasks
+* Same reasoning effort control as general reasoning
 * Increase ``--nproc_per_node`` to enable faster evaluation on multiple GPUs
 * Modify ``--model_name`` and ``--dataset_name`` for evaluation with different models and datasets
 * Please check [run.sh](./run.sh) for more examples
