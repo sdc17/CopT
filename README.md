@@ -7,7 +7,7 @@
         <img alt="ArXiv" src="https://img.shields.io/badge/arXiv-2605.20075-B31B1B?logo=arxiv" />
     </a>
     <a href="https://copt-web.github.io/">
-        <img alt="Website" src="https://img.shields.io/badge/website-555555?logo=googlechrome" />
+        <img alt="Website" src="https://img.shields.io/badge/copt--web.github.io-555555?logo=homepage&label=Website" />
     </a><br>
 </p>
 
