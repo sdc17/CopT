@@ -19,10 +19,6 @@ CopT is a reasoning pipeline with continuous-space verifiers, enabling LLMs to s
 
 (a) Conceptual comparison between CoT thinking and CopT on-policy thinking. (b) CopT contrasts the output distributions under discrete and continuous inputs. (c) CopT improves peak accuracy, marked by *, across mathematics, coding, and agentic reasoning tasks and nearly halves token usage at matched accuracy.
 
-## 🔍 Supported Models
-
-* Qwen3 and Qwen3.5 model families, from 2B to 35B
-
 ## ⚙️ Getting Started
 
 ### Clone the project
@@ -38,6 +34,10 @@ conda activate copt
 pip install -r requirements.txt
 pip install transformers==5.7.0 # Only for Qwen3.5 support
 ```
+
+## 🔍 Supported Models
+
+* Qwen3 and Qwen3.5 model families, from 2B to 35B
 
 
 ## 📈 General Reasoning
