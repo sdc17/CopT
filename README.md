@@ -21,7 +21,7 @@ CopT is a reasoning pipeline with continuous-space verifiers, enabling LLMs to s
 
 ## 🔍 Supported Models
 
-* Qwen3 and Qwen3.5 model families, from 2B to 35B.
+* Qwen3 and Qwen3.5 model families, from 2B to 35B
 
 ## ⚙️ Getting Started
 
@@ -52,10 +52,10 @@ torchrun --nproc_per_node 1 --nnodes 1 --node_rank 0 --master_port $((RANDOM + 2
 python merge.py --model_name Qwen/Qwen3-8B --dataset_name math500 --method copt
 ```
 * Reasoning effort control
-  * Decrease `--tau_a`: Increase reasoning effort by allowing fewer draft answers to be accepted directly.
-  * Decrease `--tau_r`: Increase reasoning effort by making on-policy thinking rely less on draft answers.
-  * Increase `--tau_a`: Decrease reasoning effort by allowing more draft answers to be accepted directly.
-  * Increase `--tau_r`: Decrease reasoning effort by making on-policy thinking rely more on draft answers.
+  * Decrease `--tau_a`: Increase reasoning effort by allowing fewer draft answers to be accepted directly
+  * Decrease `--tau_r`: Increase reasoning effort by making on-policy thinking rely less on draft answers
+  * Increase `--tau_a`: Decrease reasoning effort by allowing more draft answers to be accepted directly
+  * Increase `--tau_r`: Decrease reasoning effort by making on-policy thinking rely more on draft answers
 * Increase ``--nproc_per_node`` to enable faster evaluation on multiple GPUs
 * Modify ``--model_name`` and ``--dataset_name`` for evaluation with different models and datasets
 * Please check [run.sh](./run.sh) for more examples
@@ -78,7 +78,7 @@ python merge.py --model_name Qwen/Qwen3.5-35B-A3B --dataset_name zebra_arena --m
 * Download the dataset [here](https://drive.google.com/file/d/1GuLsT31rQgicmQJCS5QcnMUhiOkCU5xx/view?usp=sharing) or view the raw dataset [here](https://huggingface.co/datasets/WanjiaZhao/ZebraArena)
 * Specify the dataset path with ``--zebra_arena_data_dir``
 * We recommend using Qwen3.5 instead of Qwen3 for agentic tasks
-* Increase ``--nproc_per_node`` to enable faster evaluation on multiple GPUs.
+* Increase ``--nproc_per_node`` to enable faster evaluation on multiple GPUs
 * Modify ``--model_name`` and ``--dataset_name`` for evaluation with different models and datasets
 * Please check [run.sh](./run.sh) for more examples
 
