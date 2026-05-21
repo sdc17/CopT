@@ -3,12 +3,9 @@
 </div>
 
 <p align="center">
-    <a href="https://arxiv.org/pdf/2605.20075">
-        <img alt="ArXiv" src="https://img.shields.io/badge/arXiv-2605.20075-B31B1B?logo=arxiv" />
-    </a>
-    <a href="https://copt-web.github.io/">
-        <img alt="Website" src="https://img.shields.io/badge/copt--web.github.io-555555?logo=homepage&label=Website" />
-    </a><br>
+    <a href="https://arxiv.org/pdf/2605.20075">📑 Paper</a> · 
+    <a href="https://arxiv.org/abs/2605.20075">🔗 ArXiv</a> · 
+    <a href="https://copt-web.github.io/">🏠 copt-web.github.io</a>
 </p>
 
 
@@ -114,11 +111,11 @@ python merge.py \
 
 ## 💬 Acknowledgments
 
-We thank the contributors of open-source projects [SwiReasoning](https://github.com/sdc17/SwiReasoning) and [ZebraArena](https://github.com/wanjiaZhao1203/ZebraArena).
+We thank the contributors of open-source projects [SwiReasoning](https://github.com/sdc17/SwiReasoning) and [ZebraArena](https://github.com/wanjiaZhao1203/ZebraArena)
 
 ## ✨ BibTeX
 
-Please cite if you find our codebase helpful.
+Please cite if you find our codebase helpful:
 
 ```bash
 @misc{shi2026coptcontrastiveonpolicythinking,
